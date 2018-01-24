@@ -1,8 +1,5 @@
 package com.pkm.snork.capture.cutoffdate.test;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
-
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeUtils;
 import org.joda.time.format.DateTimeFormat;
@@ -42,7 +39,6 @@ public class CutoffDateDelegateTest {
 	private	final static String SPRING_FORWARD = "Spring Forward";
 
 	private final static DateTimeFormatter jodaFormat = DateTimeFormat.forPattern("hh:mmaa_MM/dd/yyyy");
-	private final static SimpleDateFormat javaUtilFormat = new SimpleDateFormat("hh:mmaa_MM/dd/yyyy");
 
 	@Before
 	public void setUp() throws Exception {

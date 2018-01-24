@@ -60,7 +60,7 @@ public class CutoffDateDelegate {
 
 		if (request.getCutoffTime() == null) {
 
-			DateTime todayDate = new DateTime().toDateMidnight().toDateTime();
+			DateTime todayDate = new DateTime().withTimeAtStartOfDay();
 
 			DateTime todayEightPM = todayDate.plusHours(20);
 			DateTime yestEightPM = todayEightPM.minusDays(1);
