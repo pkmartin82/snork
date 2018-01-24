@@ -1,4 +1,4 @@
-package com.pkm.snork.capture.cutoffdate.test;
+package com.pkm.snork.time.cutoffdate.test;
 
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeUtils;
@@ -10,9 +10,9 @@ import org.junit.Test;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 
-import com.pkm.snork.capture.cutoffdate.CutoffDateDelegate;
-import com.pkm.snork.capture.cutoffdate.CutoffDateDelegateUtil;
-import com.pkm.snork.capture.cutoffdate.CutoffDateRequest;
+import com.pkm.snork.time.cutoffdate.CutoffDateDelegate;
+import com.pkm.snork.time.cutoffdate.CutoffDateDelegateUtil;
+import com.pkm.snork.time.cutoffdate.CutoffDateRequest;
 
 public class CutoffDateDelegateTest {
 

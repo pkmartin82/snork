@@ -1,4 +1,4 @@
-package com.pkm.snork.capture.cutoffdate;
+package com.pkm.snork.time.cutoffdate;
 
 public class CutoffDateDelegateUtil {
 
