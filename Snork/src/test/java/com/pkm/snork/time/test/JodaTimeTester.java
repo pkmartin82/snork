@@ -67,6 +67,20 @@ public class JodaTimeTester {
 		
 	}
 	
-	
+	@Test
+	public void testDatePlusDays() {
+		DateTimeZone estZone = DateTimeZone.forID("America/New_York");
+		
+		DateTime start = new DateTime(2018, 1, 27, 0, 0, estZone);
+		addDaysToDate(start, 9);
 
+		start = new DateTime(2018, 1, 20, 0, 0, estZone);
+		addDaysToDate(start, 16);
+	}
+
+	private DateTime addDaysToDate(DateTime date, int daysToAdd) {
+		DateTime end = date.plusDays(daysToAdd);
+		logger.info(String.format("The %dth plus %d days is %s", date.getDayOfMonth(), daysToAdd, end.toString()));
+		return (end);
+	}
 }
