@@ -16,7 +16,7 @@
         class="org.apache.log4j.DailyRollingFileAppender">
         <param name="DatePattern" value="'.'yyyy-MM-dd"/> 
         <param name="File"
-            value="./logs/snork_event.log" />
+            value="${user.home}/logs/snork_event.log" />
         
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern"
