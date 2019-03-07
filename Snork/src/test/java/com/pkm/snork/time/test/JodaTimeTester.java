@@ -51,6 +51,22 @@ public class JodaTimeTester {
 	}
 
 	@Test
+	public void testDayDiff2() {
+
+		DateTimeZone dtZone = DateTimeZone.forID("America/New_York");
+		
+		//  DateTime dt = DateTime(YEAR, MONTH, DAY, HOUR, MIN, SEC);
+		DateTime dt1 = new DateTime(2018, 8, 28, 5, 00, 00, dtZone);
+
+		DateTime dt2 = new DateTime(2018, 9, 12, 5, 00, 00, dtZone);
+		
+		int daysBetween = Days.daysBetween(dt1.toLocalDate(), dt2.toLocalDate()).getDays(); 
+		
+		logger.info(String.format("Days Between [%s] and [%s] = %d", dt1.toString(), dt2.toString(), daysBetween));
+	}
+
+	
+	@Test
 	public void testTimeZoneDiff() {
 		DateTimeZone edtZone = DateTimeZone.forID("America/New_York");
 		DateTimeZone bstZone = DateTimeZone.forID("Europe/London");
@@ -83,4 +99,6 @@ public class JodaTimeTester {
 		logger.info(String.format("The %dth plus %d days is %s", date.getDayOfMonth(), daysToAdd, end.toString()));
 		return (end);
 	}
+	
+
 }
