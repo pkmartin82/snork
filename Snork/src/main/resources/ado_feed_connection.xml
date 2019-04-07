@@ -1,0 +1,13 @@
+<server>
+  <id>dev-azure-com-nbsdev-tmsprojectpackages</id>
+  <configuration>
+    <httpHeaders>
+      <property>
+        <name>Authorization</name>
+        <!-- Treat this auth token like a password. Do not share it with anyone, including Microsoft support. -->
+        <!-- The generated token expires on or before 7/5/2019 -->
+        <value>Basic YXp1cmVBcnRpZmFjdHNBY2Nlc3NUb2tlbjpleUowZVhBaU9pSktWMVFpTENKaGJHY2lPaUpTVXpJMU5pSXNJbmcxZENJNkltOVBkbU42TlUxZk4zQXRTR3BKUzJ4R1dIbzVNM1ZmVmpCYWJ5SjkuZXlKdVlXMWxhV1FpT2lKaVpUUmlNakprTUMwNFptRmhMVFkxT0RZdE9HVmlOaTFoTUdSbVlqTTNZekpqWkdJaUxDSnpZM0FpT2lKMmMyOHVaSEp2Y0Y5M2NtbDBaU0IyYzI4dWNHRmphMkZuYVc1blgzZHlhWFJsSWl3aVlYVnBJam9pTVdFMVptWTVabU10TmpZMFlpMDBOekUyTFdGaVlUQXRPR1ZpTXpJMlpEWTFNamN4SWl3aWMybGtJam9pWlRRNFlqSmxPR0l0TXpSak1DMDBaalUyTFdFNE5EVXRabVprTW1ObE9UQmpNRGxoSWl3aWFYTnpJam9pWVhCd0xuWnpkRzlyWlc0dWRtbHpkV0ZzYzNSMVpHbHZMbU52YlNJc0ltRjFaQ0k2SW1Gd2NDNTJjM1J2YTJWdUxuWnBjM1ZoYkhOMGRXUnBieTVqYjIxOGRuTnZPbUZoTXpSa09HTTVMVFUzTjJRdE5HRTRPUzA0TXpjM0xXRTRNbVF6T0RJNFpEaGtaQ0lzSW01aVppSTZNVFUxTkRVM05qQXdNaXdpWlhod0lqb3hOVFl5TXpVeU5qQXlmUS5JMVpCYTBrZWlzQk52emk4UW10N1J1VnF4cDMzS25uQXBXQUw4ODBZVlp6bWlfUFV4OUJlRml5SWpZOGltRTFHZk1xanRZbnY1Z19ranVyb3FneFUtbFk4UmZOVU1zQkJncWJqbExkZmMzMVBobkJOZzVHUld3UFVOYWlhTG53WHRJYkl3RVVzcWFjN2t6Y0hzVDBkV2YzVWdGWjdqcTNJQV9Ca2w2Um5OcHZ1NEtDZXNoU1BGSVB1VWNseTJRb1RuN203dHY3X1dZSWRTaklRM3BfWEdzamJZc3ljMnROZjdvYzE4Y1NhRTM0OTNuNDBzOUwwWWY1UEViWWdKV3UtLUd6cVlPYW9MTWdoM0RMYklDR0gzdHRoclN6NmRJb1hQUWw4SWw0QlRsbXdWdm9VdExnaUlNZ0RYbnFfdTAwNGh6eXByZ3FUVkRGcVdkOW40Um96c2c=</value>
+      </property>
+    </httpHeaders>
+  </configuration>
+</server>
