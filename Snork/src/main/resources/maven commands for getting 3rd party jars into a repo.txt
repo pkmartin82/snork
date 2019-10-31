@@ -1,0 +1,42 @@
+1) Copy Jar out of local repo into a working directory
+2) mvn deploy:deploy-file -DgroupId=com.microsoft.sqlserver.jdbc -DartifactId=sqljdbc4 -Dversion=4.0.2206.100   -Dpackaging=jar -Dfile=sqljdbc4-4.0.2206.100.jar -DrepositoryId=dev-azure-com-nbsdev-tmsprojectpackages  -Durl=https://pkgs.dev.azure.com/nbsdev/_packaging/TMSProjectPackages/maven/v1
+
+
+
+
+
+
+
+mvn deploy:deploy-file -DgroupId=com.microsoft.sqlserver.jdbc \
+  -DartifactId=sqljdbc4 \
+  -Dversion=4.0.2206.100 \
+  -Dpackaging=<type-of-packaging> \
+  -Dfile=<path-to-file> \
+  -DrepositoryId=<id-to-map-on-server-section-of-settings.xml> \
+  -Durl=<url-of-the-repository-to-deploy>
+  
+  
+  
+mvn deploy:deploy-file -DgroupId=com.microsoft.sqlserver.jdbc -DartifactId=sqljdbc4 -Dversion=4.0.2206.100   -Dpackaging=jar -Dfile=sqljdbc4-4.0.2206.100.jar -DrepositoryId=dev-azure-com-nbsdev-tmsprojectpackages  -Durl=https://pkgs.dev.azure.com/nbsdev/_packaging/TMSProjectPackages/maven/v1
+  
+  
+  
+ mvn deploy:deploy-file -DpomFile=sqljdbc4-4.0.2206.100.pom -Dfile=sqljdbc4-4.0.2206.100.jar -DrepositoryId=dev-azure-com-nbsdev-tmsprojectpackages  -Durl=https://pkgs.dev.azure.com/nbsdev/_packaging/TMSProjectPackages/maven/v1
+  
+  
+  
+  
+  
+  
+  
+  
+  <repository>
+  <id>dev-azure-com-nbsdev-tmsprojectpackages</id>
+  <url>https://pkgs.dev.azure.com/nbsdev/_packaging/TMSProjectPackages/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
