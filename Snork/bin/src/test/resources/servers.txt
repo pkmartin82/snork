@@ -1,0 +1,16 @@
+dw8btr-com01.tmsnet.ri
+qw8btr-com01.tmsnet.ri
+uw8btr-com01.tmsnet.ri
+uw8btr-com02.tmsnet.ri
+pw8bfr-com01.tmsnet.ri
+pw8bfr-com02.tmsnet.ri
+bw8btr-com01.tmsnet.ri
+bw8btr-com02.tmsnet.ri
+dw8ocr-intra01.tmsnet.ri
+qw8ocr-intra01.tmsnet.ri
+uw8ocr-intra01.tmsnet.ri
+uw8ocr-intra02.tmsnet.ri
+pw8bfr-intra01.tmsnet.ri
+pw8bfr-intra02.tmsnet.ri
+bw8btr-intra01.tmsnet.ri
+bw8btr-intra02.tmsnet.ri

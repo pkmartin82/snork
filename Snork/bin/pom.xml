@@ -7,7 +7,7 @@
 	<name>Snork</name>
 
 	<properties>
-		<java.version>1.11</java.version>
+		<java.version>1.8</java.version>
 		<jacoco.version>0.7.3.201502191951</jacoco.version>
 		<spring.version>4.1.6.RELEASE</spring.version>
 		<hibernate.version>3.6.10.Final</hibernate.version>
